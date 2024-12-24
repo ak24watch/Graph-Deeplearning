@@ -1,2 +1,2 @@
 # Graph-Deeplearning
- GNNs implementation using DGL
+ Graph Attention networks implementation using DGL
