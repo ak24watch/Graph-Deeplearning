@@ -1,17 +1,6 @@
-# Graph-Deeplearning using GAT Model
 
-This repository contains an implementation of Graph Attention Networks (GAT) using the Deep Graph Library (DGL). The GAT model is used for node classification tasks on various graph datasets.
 
-## Table of Contents
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Datasets](#datasets)
-- [Training](#training)
-- [Evaluation](#evaluation)
-- [Visualization](#visualization)
-- [License](#license)
 
 ## Introduction
 
@@ -55,11 +44,22 @@ The evaluation metrics include accuracy for transductive learning and F1-score f
 
 ## Visualization
 
-To visualize the learned node embeddings using UMAP, run the `umapplot.py` script:
+The repository includes scripts to visualize the learned node embeddings using UMAP. These visualizations help in understanding the clustering and separation of different node classes after training.
+
+To visualize the embeddings, run the `umapplot.py` script:
 
 ```sh
 python GAT/umapplot.py
 ```
+### Here is an example of the learned model emb  visualization for the CiteSeer dataset:
+
+![Node Embeddings Visualization - CiteSeer](GAT/umap_projection_citeseer.png)
+
+### Here is an example of the learned model emb visualization for the Cora dataset:
+
+![Node Embeddings Visualization - Cora](GAT/umap_projection_cora.png)
+
+
 
 ## License
 
