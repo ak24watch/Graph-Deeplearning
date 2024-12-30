@@ -54,9 +54,6 @@ python GAT/umapplot.py
 
 ### Here is an example of the learned model emb  visualization for the CiteSeer dataset:
 ![Node Embeddings Visualization - CiteSeer](GAT/umap_projection_citeseer.png)
-
-
-
 ### Here is an example of the learned model emb visualization for the Cora dataset:
 ![Node Embeddings Visualization - Cora](GAT/umap_projection_cora.png)
 
