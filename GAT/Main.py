@@ -75,4 +75,4 @@ else:
     # Train the model in an inductive setting (using mini-batch training)
     trainInductive(batch_train_data, batch_valid_data, model)
 
-torch.save(model.state_dict(), "gat_model_weights.pth")
+torch.save(model.state_dict(), f"gat_model_weights_{args.dataset}.pth")
